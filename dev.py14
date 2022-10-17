@@ -1,0 +1,6 @@
+from dateutil import parser
+
+date_time = parser.parse("oct17 2022 1:35pm")
+
+print(date_time)
+print(type(date_time))
